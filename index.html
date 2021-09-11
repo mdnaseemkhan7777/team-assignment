@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naseem Team Report</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="blur">
+      <div class="col-md-12">
+        <button onclick="GotoSignIn()" style="width: 300px;" class="mx-auto d-block btn btn-lg btn-primary">Sign In</button>
+        <button onclick="GotoSignUp()" style="width: 300px;" class="mx-auto mt-4 d-block btn btn-lg btn-primary">Sign Up</button>
+      </div>
+    </div>
+    </div>
+    <script>
+        GotoSignIn=()=>{
+            window.location.href="./Screens/SignIn.html";
+        }
+        GotoSignUp=()=>{
+            window.location.href="./Screens/SignUp.html";
+        }
+    </script>
+</body>
+</html>

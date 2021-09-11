@@ -1,0 +1,42 @@
+.myFlex{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-image: url('../images/NaseemHeader.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+}
+.blur{
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    color: rgb(94, 94, 94);
+}
+.CreateTeamInput{
+    border: none;
+    border-bottom: 2px solid;
+}
+.CreateTeamInput:focus{
+     box-shadow: none;
+}
+.border{
+    border: 3px dashed #dee2e6!important;
+    border-radius: 10px;
+}
+.btn-lg{
+    border-radius: 6px !important;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <section class="myFlex px-2">
+        <div class="border col-md-6 col-12 py-5 px-md-5 px-sm-2 px-2">
+            <h3 class="mb-5">Login</h3>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Email*</label>
+                <input type="email" class="form-control" id="SignInEmail" placeholder="Enter Email Here . . .">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Password</label>
+                <input type="password" class="form-control" id="SignInPassword" placeholder="Enter Password Here . . .">
+            </div>
+            <div class="text-center py-3">
+                <button onclick="SignIn()" class="btn btn-lg btn-primary">Login</button>
+            </div>
+            <p class="text-center mt-3">Don't have an account? <strong><a style="text-decoration: none;"
+                        class="text-dark fst-italic" href="./SignUp.html">Sign up</a></strong></p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="../assets/js/App.js"></script>
+</body>
+
+</html>
